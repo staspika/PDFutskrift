@@ -1,0 +1,16 @@
+{
+    "name": "PDFutskrift",
+    "author": ["Stanislav Pika"],
+    "url": "",
+    "descriptionmsg": "pdfutskrift-desc",
+    "version": "0.1",
+    "license-name": "GPL-3.0+",
+    "type": "other",
+    "manifest_version": 1,
+    "MessagesDirs": {
+        "InternalWhitelist": ["i18n"]
+    },
+    "AutoloadClasses": {
+        "PdfUtskrift": "PdfUtskrift_body.php"
+    }
+}
